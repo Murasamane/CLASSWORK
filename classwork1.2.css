@@ -1,0 +1,180 @@
+body{
+    position: relative;
+    ;
+}
+li{
+    display:inline-block;
+    padding: 17px;
+    justify-content: center;
+    transition-duration: 0.5s;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+   
+
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li:hover{
+    transition: all ;
+    box-shadow: 0 4px 8px 0 rgb(2, 2, 2);
+   background-color: rgba(0, 153, 255, 0.897);
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+}
+ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    position: relative;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+    
+  }
+  ul li:hover > ul,
+  ul li:focus-within > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: flex;
+  background-color:rgba(155, 208, 243, 0.897) ;
+}
+ul li ul li {
+    clear: both;
+    width: 100%;
+  }
+  .li2:hover{
+    transition: all ;
+     box-shadow: 0 4px 8px 0 rgb(2, 2, 2);
+    background-color: black;
+    color: white;
+ }
+ 
+nav p{
+    position: absolute;
+    left: 60px;
+    top: 0;
+    font-size: 125%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header h1{
+    display: flex;
+    position: relative;
+    top: 45%;
+    justify-content: center;
+    
+}
+header p{
+    display: flex;
+    position: relative;
+    top: 40%;
+    justify-content: center;
+   
+}
+header{
+    background-image: url(img/231-2318629_asian-business-woman-png-png.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    background-color: #f6f6f6;
+}
+.flexboxContainer{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+padding: 10px;
+margin: 10px;
+
+
+}
+.div1{
+  background-image: url(img/DtHt6waXQAATq42.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 80px;
+  width: 200px;
+  height: 150px;
+  margin: 20px;
+  color: black;
+  font-weight: bold;
+  text-align:center;
+  font-size: 100%;
+  
+}
+.div1:hover{
+    box-shadow: 3px 3px black;
+    transition: all .9s;
+    background-color: black;
+    color: white;
+}
+.div1 p{
+    position: relative;
+    top: 70%;
+}
+.divv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+   
+}
+
+.flexboxContainer2{
+    background-color:#f6f6f6 ;
+    height: 500px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+padding: 10px;
+margin: 10px;
+
+
+}
+.div2
+{
+    background-image: url(img/DtHt6waXQAATq42.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    padding: 80px;
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    color: black;
+    font-weight: bold;
+    text-align:center;
+    font-size: 100%;
+    
+}
+.div2 p{
+    position: relative;
+    top: 70%;
+}
+.div4{
+    
+    position: absolute;
+    top: 100%;
+    right: 80px;
+    
+    
+}
+.div4 a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 12px;
+}
